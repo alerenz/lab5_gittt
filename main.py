@@ -13,10 +13,10 @@ def director(path):
         print("Ошибка: такой папки не существует.\n"
               "1 - попробовать ещё раз\n"
               "0 - выход")
-        op = int(input("введите команду: "))
-        if op == 1:
+        opr = int(input("введите команду: "))
+        if opr == 1:
             director()
-        if op == 0:
+        if opr == 0:
             return
 
 
