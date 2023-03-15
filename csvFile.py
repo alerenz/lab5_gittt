@@ -6,9 +6,15 @@ from tabulate import tabulate
 import file
 
 
+
 class CsvFile(file.File):
     data = []
     keys = []
+
+    @staticmethod
+    def hahah(){
+        print("hahaha")
+    }
 
     def get_data(self):
         self.data, keys = [], []
